@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000"; // URL del backend en FastAPI
+const API_URL = "https://crud-prestamos-production.up.railway.app/users"; // URL del backend en FastAPI
 
 // ✅ Función para iniciar sesión (login)
 export const login = async (username, email, phone, password) => {
